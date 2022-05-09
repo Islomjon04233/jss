@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #F7F9FB;
+}
+
+
+nav{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    /* background-color: aqua; */
+    }
+    
+    nav svg{
+        margin-left: 100px;
+        margin-top: 60px;
+    }
+    .work{
+        width: 300px;
+        height: 200px;
+        /* border: 2px solid red; */
+        margin: 20px;
+    }
+    .work ul{
+        font-size: 20px;
+        /* color: black; */
+        margin-top: 60px;
+        font-weight: 600;
+        margin-right: 100px;
+    }
+    .work ul li{
+        list-style-type: none;
+        margin: 8px;
+    }
+    .work ul li a{
+        text-decoration: none;
+        color: #454545;
+    }
+    .work ul .logo a{
+        color: #000;
+    }
+    .payge{
+        width: 300px;
+        height: 200px;
+        margin-right: 1000px;
+    }
+    .payge ul{
+        font-size: 20px;
+        /* color: black; */
+        margin-top: 80px;
+        font-weight: 600;
+    }
+    .payge ul li{
+        list-style-type: none;
+        margin: 8px;
+    }
+    .payge ul li a{
+        text-decoration: none;
+        color: #AFA9AC;
+        transition: .2s;
+    }
+    .payge ul li a:hover{
+        color: black;
+    }
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #F7F9FB;
+}
+.container h1{
+    color: #414042;
+    margin-top: 0px;
+    margin-left: 100px;
+    font-size: 28px;
+}
+.container h1 ins:hover{
+     color: black;
+     cursor: pointer;
+}
+.icons{
+    /* width: 100%;
+    height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: fixed;
+}
+.icons i{
+    margin: 20px;
+    color: #BCBEC0;
+}
+.icons i:hover{
+    color: black;
+    cursor: pointer;
+}
+.textlar{
+    width: 80%;
+    height: 80%;
+    margin-top: 30px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.p{
+    width: 40%;
+    /* border: 3px solid blue; */
+    display: flex;
+    justify-content: center;
+    font-size:17px;
+    margin-left:100px;
+    color: #414042;
+}
+.p ins:hover{
+    color: black;
+}
+.span{
+    width: 40%;
+    margin-left: 40px;
+    font-size: 17px;
+    color: #414042;
+    /* background-color: red; */
+}
+.span ins:hover{
+    color: black;
+}
+.icon_name{
+width: 100%;
+height: 20vh;
+display: flex;
+
+}
+.email{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.email i{
+    font-size: 35px;
+    margin-left: 100px;
+    color: #454545;
+}
+.email i:hover{
+    color: black;
+}
+.email ins{
+    font-size: 23px;
+    color: #454545;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.twiter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 000px;
+}
+.twiter i{
+    font-size: 35px;
+    margin-left: 70px;
+    color: #454545;
+}
+.twiter i:hover{
+    color: black;
+}
+.twiter ins{
+    font-size: 23px;
+    color: #454545;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.link{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 450px;
+}
+.link i{
+    font-size: 35px;
+    margin-left: 70px;
+    color: #454545;
+    transition: 0.2s;
+}
+.link i:hover{
+    color: black;
+}
+.link ins{
+    font-size: 23px;
+    color: #454545;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+.exspres_awards{
+    width: 80%;
+    height: 230vh;
+    /* border: 3px solid red; */
+    display: flex;
+}
+.rigth{
+    width: 40%;
+    /* background: aqua; */
+}
+.left{
+    width: 40%;
+    /* background: red; */
+}
+.rigth h4{
+    margin-left: 80px;
+}
+.rigth .edu{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.rigth p{
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.rigth .talk{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.left p ins{
+    color: #414042;
+}
+.left p b{
+    color: #414042;
+}
+.rigth p b{
+    color: #414042;
+}
+.rigth p b ins:hover{
+    color: #000;
+}
+.left p b ins:hover{
+    color: #0000;
+}
+.rigth p ins:hover{
+    color: black;
+}
+.left p ins:hover{
+    color: black;
+}
+.left h4{
+    margin-left: 150px;
+}
+.left p{
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.brain h2{
+    font-size: 25px;
+    margin-left: 100px;
+    color: #414042;
+}
+.brain{
+    width: 100%;
+    height: 100vh;
+}
+.brain h4{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.image{
+    margin-top: 100px;
+    width: 80%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.brain h1{
+    color: #414042;
+    margin-top: 250px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.text-icons{
+    display: flex;
+    margin-left: 58%;
+    margin-top: 100px;
+}
+.tw{
+    display: flex;
+    color: #939598;
+}
+.tw i{
+    margin: 0px 10px;
+}
+.tw:hover{
+    color: black;
+    cursor: pointer;
+}
+.face{
+    display: flex;
+    color: #939598;
+}
+.face i{
+    margin: 0 10px ;
+}
+.face:hover{
+    color: black;
+    cursor: pointer;
+}
+.em{
+    display: flex;
+    color: #939598;
+}
+.em i{
+    margin: 0 10px;
+}
+.em:hover{
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: white;
+}
+.icons{
+    /* width: 100%;
+    height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 280px;
+    position: fixed;
+}
+.icons i{
+    margin: 20px;
+    color: #BCBEC0;
+}
+.icons i:hover{
+    color: black;
+    cursor: pointer;
+}
+nav{
+width: 100%;
+height: 250px;
+display: flex;
+/* background-color: aqua; */
+}
+
+nav svg{
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 140px;
+    height: 130px;
+}
+.work{
+    width: 300px;
+    height: 200px;
+    /* border: 2px solid red; */
+    margin: 20px;
+}
+.work ul{
+    font-size: 20px;
+    /* color: black; */
+    margin-top: 60px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+.work ul li{
+    list-style-type: none;
+    margin: 8px;
+}
+.work ul li a{
+    text-decoration: none;
+    color: #454545;
+}
+.work ul .logo a{
+    color: #000;
+}
+.payge{
+    width: 300px;
+    height: 200px;
+}
+.payge ul{
+    font-size: 20px;
+    /* color: black; */
+    margin-top: 80px;
+    font-weight: 600;
+}
+.payge ul li{
+    list-style-type: none;
+    margin: 8px;
+}
+.payge ul li a{
+    text-decoration: none;
+    color: #AFA9AC;
+}
+.payge ul li a:hover{
+    color: black;
+}
+.container{
+    width: 100%;
+display: flex;
+padding-left: 20px;
+padding-right: 100px;
+flex-wrap: wrap;    
+    
+}
+.container1{
+    width: 80%;
+    height: 50%;
+    display: flex;
+}
+.rigth{
+    width: 40%;
+    /* background-color: blue; */
+}
+.left{
+    width: 40%;
+}
+.rigth h3{
+    margin-left: 100px;
+    margin-top: 30px;
+    color: #414042;
+}
+.rigth ins{
+    color: #454545;
+}
+.left ins{
+    color: #454545;
+}
+.rigth ins:hover{
+    color: black;
+    cursor: pointer;
+}
+.left ins:hover{
+    color: black;
+    cursor: pointer;
+}
+.rigth p{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.left h3{
+    margin-left: 100px;
+    margin-top: 30px;
+    color: #414042;
+}
+.left p{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.imagelars p{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.contact_us{
+    width: 80%;
+    display: flex;
+}
+.rigth_img{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+.left_img{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+
+.guardians{
+    width: 80%;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.sport{
+    width: 40%;
+    border-radius: 10px;
+}
+.sport p{
+    margin-top: 10px;
+margin-left: 13px;
+}
+.news{
+    width: 40%;
+    margin-left: 110px;
+
+}
+.news p{
+    margin-top: 10px;
+    margin-left: 13px;
+}
+.create{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.loremlar{
+    width: 84%;
+    margin-left: 100px;
+    display: flex;
+}
+.Publications{
+    width: 42%;
+}
+.Awards{
+    width: 42%;
+    margin-left: 50px;
+}
+.Publications p{
+    font-size: 17px;
+    margin-top: 20px;
+}
+.Publications h3{
+    margin-top: 10px;
+}
+.Awards h3{
+    margin-top: 10px;
+}
+.Awards p{
+    margin-top: 20px;
+    font-size: 17px;
+}
+.Publications p ins{
+    color: #454545;
+}
+.Publications p ins:hover{
+    color: #000;
+    cursor: pointer;
+}
+.Awards p ins{
+    color: #454545;
+}
+.Awards p ins:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+.text-icons{
+    display: flex;
+    margin: 100px 1300px ;
+}
+.tw{
+    display: flex;
+    color: #939598;
+}
+.tw i{
+    margin: 0px 10px;
+}
+.tw:hover{
+    color: black;
+    cursor: pointer;
+}
+.face{
+    display: flex;
+    color: #939598;
+}
+.face i{
+    margin: 0 10px ;
+}
+.face:hover{
+    color: black;
+    cursor: pointer;
+}
+.em{
+    display: flex;
+    color: #939598;
+}
+.em i{
+    margin: 0 10px;
+}
+.em:hover{
+    color: black;
+    cursor: pointer;
+}
